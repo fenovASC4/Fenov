@@ -1,0 +1,129 @@
+ /* Style for the website homepage */
+@import url('https://fonts.googleapis.com/css?family=Kalam|Nova+Oval');
+        
+        body
+        {
+            background: linear-gradient(#ffffff, rgba(224, 247, 252, 1), #aaaaaa);
+            font-family: 'Kalam', cursive;
+        }
+        
+        h1
+        {
+            font-size: 45px;
+        }
+        
+        h2
+        {
+            font-size:30px;
+        }
+        
+        p
+        {
+            font-size: 20px;
+        }
+        
+        table
+        {
+            background:rgba(45, 45, 45, 0.2);
+            
+        }
+        th
+        {
+            border: 4px solid rgb(147, 255, 255);
+        }
+        
+        td
+        {
+            border: 1px solid black;
+            color: rgb(147, 255, 255);
+        }
+        
+        .center
+        {
+            text-align: center;
+        }
+        
+        .indent
+        {
+            padding-left: 1.8em;
+        }
+        
+        .indentx2
+        {
+            padding-left: 3.6em;
+        }
+        
+        #indentbutton
+        {
+            padding-left: 78em;
+        }
+        .button 
+        {
+            -moz-transition-duration: 0.4s; /* Firefox */
+            -o-transition-duration: 0.4s; /* Opera */
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+
+        .button:hover 
+        {
+            background-color: rgb(92, 124, 242); 
+            color: white;
+        }
+        
+        .blank
+        {
+            background: rgba(45, 45, 45, 0.5);
+            color: white;
+        }
+        
+        #womensday
+        {
+            background: rgba(255, 0, 229, 0.5)
+        }
+        
+        #spring
+        {
+            background: rgba(189, 255, 145, 0.5)
+        }
+        
+        #thearts
+        {
+            color: Orange;
+        }
+        #birthday
+        {
+            background: linear-gradient(rgba(255, 50, 0, 0.5), /*red*/ 
+            rgba(255, 161, 0, 0.5), /*orange*/
+            rgba(255, 255, 0, 0.5), /*yellow*/
+            rgba(101, 255, 0, 0.5), /*green*/
+            rgba(0, 135, 255, 0.5), /*blue*/
+            rgba(42, 0, 255, 0.5), /*indigo*/
+            rgba(255, 0, 229, 0.5)); /*Magenta*/
+        }
+        
+        #stpatty
+        {
+            background: linear-gradient(rgba(189, 255, 145, 0.5), rgba(255, 255, 0, 0.5));
+        }
+        
+        #title
+        {
+            font-family: 'Nova Oval';
+        }
+        
+        #markper3
+        {
+            background: rgba(255, 0, 51, 0.5);
+        }
+        
+        #calendartitle
+        {
+            color: #35ffc2;
+        }
+        
+        #calendar
+        {
+            width: 888.89px;
+            height: 300px;
+        }
