@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Nova+Oval');
+
+p
+{
+    margin: 5em;
+    font-family: Kalam;
+    font-size: 28px;
+}
+
+h1
+{
+    font-family: Nova Oval;
+}

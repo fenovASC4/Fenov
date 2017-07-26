@@ -1,0 +1,16 @@
+.row
+{
+    margin:0px;
+}
+
+.header
+{
+    padding: 30px 60px 30px 60px;
+    text-align: center;
+    background: #ffeba3;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
