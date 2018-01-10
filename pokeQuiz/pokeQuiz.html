@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon Quiz!</title>
+
+    <!-- Jquery Reference -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- JS file link -->
+    <script src="pokeQuiz.js"></script>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="pokeQuiz.css">
+
+    <!-- Fonts Link -->
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Neucha" rel="stylesheet">
+</head>
+
+<!-- Beginning of Website -->
+<body>
+
+    <!-- Header -->
+    <div class="heading">
+        <img src="assets/pokeLogo.png">
+        <h1>Welcome to Pokequiz</h1>
+    </div>
+
+    <div class="quizSection">
+        <h1 class="Amaranth" id="Pokemon"> Welcome to the PokeQuiz </h1>
+        <p class ="Neucha" id="answerType"> I'm straight boolin</p>
+        <h2 class ="Neucha" id="score"> 0 </h2>
+        <h2 class ="Neucha" id="questionNum"> Do not press anything while the API pulls a result <h2>
+
+        <!-- Three buttons in a group -->
+        <div class="btn-group">
+            <button class = "typeButton" onclick="checkAnswer('normal')" id = "normal"><img class="typeSigna" src= "assets/normalType.png">Normal</button>
+            <button class = "typeButton" onclick="checkAnswer('fire')" id = "fire"><img class="typeSigna" src= "assets/fireType.png">Fire</button>
+            <button class = "typeButton" onclick="checkAnswer('water')" id = "water"><img class="typeSigna" src= "assets/waterType.png">Water</button>
+            <button class = "typeButton" onclick="checkAnswer('electirc')"id = "electric"><img class="typeSigna" src= "assets/electricType.png">Electric</button>
+            <button class = "typeButton" onclick="checkAnswer('grass')" id = "grass"><img class="typeSigna" src= "assets/grassType.png">Grass</button>
+        </div>
+
+        <div class="btn-group" style="width:100%">
+            <button class = "typeButton" onclick="checkAnswer('ice')"id = "ice"><img class="typeSigna" src= "assets/iceType.png">Ice</button>
+            <button class = "typeButton" onclick="checkAnswer('fighting')" id = "fighting"><img class="typeSigna" src= "assets/fightingType.png">Fighting</button>
+            <button class = "typeButton" onclick="checkAnswer('posion')" id = "poison"><img class="typeSigna" src= "assets/poisonType.png">Poison</button>
+            <button class = "typeButton" onclick="checkAnswer('ground')" id = "ground"><img class="typeSigna" src= "assets/groundType.png">Ground</button>
+            <button class = "typeButton" onclick="checkAnswer('flying')" id = "flying"><img class="typeSigna" src= "assets/flyingType.png">Flying</button>
+        </div>
+
+        <div class="btn-group">
+            <button class = "typeButton" onclick="checkAnswer('psychic')"id = "psychic"><img class="typeSigna" src= "assets/psychicType.png">Psychic</button>
+            <button class = "typeButton" onclick="checkAnswer('rock')"id = "rock"><img class="typeSigna" src= "assets/rockType.png">Rock</button>
+            <button class = "typeButton" onclick="checkAnswer('bug')"id = "bug"><img class="typeSigna" src= "assets/bugType.png">Bug</button>
+            <button class = "typeButton" onclick="checkAnswer('ghost')"id = "ghost"><img class="typeSigna" src= "assets/ghostType.png">Ghost</button>
+            <button class = "typeButton" onclick="checkAnswer('dragon')"id = "dragon"><img class="typeSigna" src= "assets/dragonType.png">Dragon</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

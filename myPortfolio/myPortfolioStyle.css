@@ -1,0 +1,115 @@
+ /* Style for the website homepage */
+@import url('https://fonts.googleapis.com/css?family=Kalam|Nova+Oval');
+        
+        body
+        {
+            background: linear-gradient(#ffffff, rgba(224, 247, 252, 1), #aaaaaa);
+            font-family: 'Kalam', cursive;
+        }
+
+        h1
+        {
+            font-size: 45px;
+        }
+        
+        h2
+        {
+            font-size:30px;
+        }
+        
+        p
+        {
+            font-size: 20px;
+        }
+        
+        table
+        {
+            background:rgba(45, 45, 45, 0.2);
+            
+        }
+        th
+        {
+            border: 4px solid rgb(147, 255, 255);
+        }
+        
+        td
+        {
+            border: 1px solid black;
+            color: rgb(147, 255, 255);
+        }
+        
+        .collage
+        {
+            height: 425px;
+        }
+        .center
+        {
+            text-align: center;
+        }
+        
+        .indent
+        {
+            padding-left: 1.8em;
+        }
+        
+        .indentx2
+        {
+            padding-left: 3.6em;
+        }
+        
+        #indentbutton
+        {
+            align-self: right;
+        }
+        .button 
+        {
+            -moz-transition-duration: 0.4s; /* Firefox */
+            -o-transition-duration: 0.4s; /* Opera */
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+
+        .button:hover 
+        {
+            background-color: rgb(92, 124, 242); 
+            color: white;
+        }
+
+        .collage:hover
+        {
+            opacity: 70%;
+        }
+        
+        .blank
+        {
+            background: rgba(45, 45, 45, 0.5);
+            color: white;
+        }
+        #title
+        {
+            font-family: 'Nova Oval';
+            margin: 70px;
+        }
+        
+        #markper3
+        {
+            background: rgba(255, 0, 51, 0.5);
+        }
+        
+        #calendartitle
+        {
+            color: #35ffc2;
+        }
+        
+        #calendar
+        {
+            width: 888.89px;
+            height: 300px;
+        }
+
+        #mainimg
+        {
+            width: 888.89px; 
+            height: 500px ;
+            opacity: 0.8;
+        }

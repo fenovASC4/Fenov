@@ -1,0 +1,5 @@
+
+
+My client ID:     <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+
+My client secret:  VNKJe2SPV9JvClAAXMZVHGho

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAAot9mJ2qSiLHdkHVzqGl1gy2yXnyo6yI",
+        authDomain: "rock-paper-scissors-7c923.firebaseapp.com",
+        databaseURL: "https://rock-paper-scissors-7c923.firebaseio.com",
+        projectId: "rock-paper-scissors-7c923",
+        storageBucket: "rock-paper-scissors-7c923.appspot.com",
+        messagingSenderId: "780060066961"
+    };
+    
+    firebase.initializeApp(config);
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js"></script>
+    <script>
+        var provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(provider).then(function(result) {
+        // This gives you a Google Access Token. You can use it to access the Google API.
+        var token = result.credential.accessToken;
+        // The signed-in user info.
+        var user = result.user;
+        // ...
+    }).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // The email of the user's account used.
+        var email = error.email;
+        // The firebase.auth.AuthCredential type that was used.
+        var credential = error.credential;
+        // ...
+    });
+    </script>
+    <script src="RPS.js"></script>
+    <!-- Jquery Reference -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+               <button onclick="playerRock()">Rock</button>
+               <button onclick="playerPaper()">Paper</button>
+               <button onclick="playerScissors()">Scissor</button>
+               <button onclick="signInWithPopup()"> Sign In </button>
+               <button onclick="signOut()"> Sign Out </button>
+    </header> 
+    <p id="computerChoice"> Computer choice finna go here NIBBA </p>
+    <p id="result"> Results go here NIBBA </p>
+    
+</body>
+</html>

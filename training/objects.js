@@ -1,5 +1,3 @@
-
-
 function Superhero(realName, power, justice, height) // example of a class
 {
     this.realName = realName; // The rightside of the line must be the same as a parameter
@@ -27,4 +25,4 @@ var mew =
     "legendary" : true,
 } ;
 
-console.log(mew.HP);*/
+console.log(mew.HP);
